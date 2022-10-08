@@ -1,10 +1,18 @@
 import React from "react";
 
-function Header() {
+function NavBar() {
   return (
-    <>
-      <h1>Protfolio Site</h1>
-    </>
+    <header>
+      <ul>
+        <li className="w-11 h-11 text-white">About</li>
+
+        <li>Uses</li>
+
+        <li>Contact</li>
+
+        <li>B</li>
+      </ul>
+    </header>
   );
 }
-export default Header;
+export default NavBar;
