@@ -1,6 +1,5 @@
 import React from "react";
 import ProtLogo from "../../Assets/ProtLogo.png";
-import DarkMode from "../../Assets/DarkMode.png";
 
 function NavBar() {
   return (
