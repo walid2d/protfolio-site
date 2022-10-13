@@ -3,7 +3,7 @@ import WalidPfp from "../../Assets/WalidPfp.png";
 
 function Hero() {
   return (
-    <section className="flex flex-row justify-around my-24">
+    <section className="flex flex-row justify-around mt-32 mb-48" id="About">
       <div className="flex flex-col justify-center">
         <h1 className="text-4xl text-white tracking-tighter max-w-lg">
           Hello, I am Walid Rahim
