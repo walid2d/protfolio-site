@@ -2,7 +2,7 @@ export const appData = [
   {
     id: 1,
     title: "Cube",
-    tech: ["React", "Redux", "DaisyUI", "Rtmp"],
+    tech: ["React", "Redux",'TailwindCSS' "DaisyUI", "Rtmp"],
     link: "https://github.com/walid2d/cube",
   },
   {
