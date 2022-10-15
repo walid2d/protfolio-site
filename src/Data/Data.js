@@ -2,12 +2,12 @@ export const appData = [
   {
     id: 1,
     title: "Cube",
-    tech: ["React", "Redux",'TailwindCSS' "DaisyUI", "Rtmp"],
+    tech: ["React", "Redux", "TailwindCSS", "DaisyUI", "Rtmp"],
     link: "https://github.com/walid2d/cube",
   },
   {
     id: 2,
-    title: "InStock (Group-project)",
+    title: "InStock",
     tech: ["React", "Scss", "NodeJS", "Express"],
     link: "https://github.com/aramatsolrac/InStock",
   },
@@ -25,13 +25,13 @@ export const appData = [
   },
   {
     id: 4,
-    title: "Coffee Shop",
+    title: "CoffeeShop",
     tech: ["Html", "Sass", "BEM"],
-    link: "github.com/walid2d/cube",
+    link: "https://github.com/walid2d/cube",
   },
   {
     id: 5,
-    title: "Travel Site",
+    title: "TravelSite",
     tech: ["Html", "Sass", "BEM"],
     link: "https://github.com/walid2d/coffeeshop-v2",
   },

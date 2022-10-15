@@ -8,16 +8,16 @@ function Footer() {
     <div className="flex flex-col justify-center align-center mb-2">
       <div className="mb-2 flex flex-row justify-center align-center">
         <a href="https://www.linkedin.com/in/walidrahim/" target="_blank">
-          <img className="w-12 h-12" src={LiIcon} alt="linkedIn icon" />
+          <img className="w-10 h-10" src={LiIcon} alt="linkedIn icon" />
         </a>
         <a href="" target="_blank">
-          <img className="w-12 h-12" src={ResumeIcon} alt="Resume icon" />
+          <img className="w-10 h-10" src={ResumeIcon} alt="Resume icon" />
         </a>
         <a href="https://github.com/walid2d" target="_blank">
-          <img className="w-12 h-12" src={GithubIcon} alt="Github icon" />
+          <img className="w-10 h-10" src={GithubIcon} alt="Github icon" />
         </a>
       </div>
-      <h3 className="text-white text-base self-center">
+      <h3 className="text-white text-sm self-center">
         Designed and Developed by Walid Rahim
       </h3>
     </div>
