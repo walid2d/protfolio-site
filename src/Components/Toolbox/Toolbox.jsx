@@ -17,12 +17,12 @@ AOS.init();
 function Toolbox() {
   return (
     <section
-      className="flex justify-between flex-col border-2"
+      className="flex justify-between flex-col border-2 tablet:w-[588px] mx-auto desktop:w-[50rem] desktop:h-[20rem]"
       data-aos="zoom-in-up"
       id="Toolbox"
     >
       <div className="border-2 border-b-4 flex flex-row justify-between">
-        <h2 className="text-white text-base ml-1">/skills & Tools</h2>
+        <h2 className="text-white text-base ml-1 ">/skills & Tools</h2>
         <div className="flex flex-row justify-center items-center">
           <div className="w-4 h-4 mr-1 border-2 rounded-full border-green-500 hover:bg-green-500"></div>
           <div className="w-4 h-4 mr-1 border-2 rounded-full border-gray-500 hover:bg-gray-500"></div>
@@ -30,17 +30,50 @@ function Toolbox() {
         </div>
       </div>
       <div className="flex flex-wrap justify-between flex-row m-6">
-        <Html5logo className="w-14  h-14 m-[1rem] " fill="white" />
-        <Tailwindcss className="w-14  h-14 m-[1rem] " fill="white" />
-        <Sass className="w-14  h-14 m-[1rem] " fill="white" />
-        <Javascript className="w-14  h-14 m-[1rem] " fill="white" />
-        <Reactlogo className="w-14  h-14 m-[1rem] " fill="white" />
-        <Storybook className="w-14  h-14 m-[1rem] " fill="white" />
-        <Mysql className="w-14  h-14 m-[1rem] " fill="white" />
-        <Mongodb className="w-14  h-14 m-[1rem] " fill="white" />
-        <Nodedotjs className="w-14  h-14 m-[1rem] " fill="white" />
-        <Expresslogo fill="white" className="w-14 h-14 m-[1rem]" />
-        <Github className="w-14  h-14 m-[1rem] " fill="white" />
+        <Html5logo
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Tailwindcss
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Sass
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Javascript
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Reactlogo
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Storybook
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Mysql
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Mongodb
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Nodedotjs
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
+        <Expresslogo
+          fill="white"
+          className="w-14 h-14  desktop:w-20 desktop:h-20 m-[1rem]"
+        />
+        <Github
+          className="w-14  h-14 desktop:w-20 desktop:h-20  m-[1rem] "
+          fill="white"
+        />
       </div>
     </section>
   );

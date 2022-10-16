@@ -8,7 +8,7 @@ AOS.init();
 function Projects() {
   return (
     <section
-      className="flex justify-between flex-col border-2 mt-8"
+      className="flex justify-between w-[323px] tablet:w-[588px] flex-col border-2 mx-auto mt-12 desktop:w-[50rem] desktop:h-[22rem]"
       data-aos="zoom-in-up"
     >
       <div className="border-2 border-b-4 flex flex-row justify-between">
@@ -19,17 +19,17 @@ function Projects() {
           <div className="w-4 h-4 mr-1 border-2 rounded-full border-red-700 hover:bg-red-700"></div>
         </div>
       </div>
-      <div className="flex flex-wrap flex-row justify-between items-center m-6">
+      <div className="flex flex-wrap flex-row justify-around tablet:justify-between mx-auto desktop:mb-auto  items-center w-[323px] tablet:w-auto">
         {appData.map((value) => {
           return (
             <a
-              className="flex flex-col justify-center items-center w-20 h-30 m-[1rem]"
+              className="flex flex-col justify-center items-center w-20 h-30 m-[1rem] desktop:m-[1.7rem]"
               href={value.link}
               target={"_blank"}
               id={value.id}
             >
               <img
-                className="w-12  h-12 self-center"
+                className="w-12  h-12 self-center desktop:w-20 desktop:h-20"
                 src={Folder}
                 alt="folder icon"
               />
