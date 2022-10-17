@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 function NavBar() {
   return (
-    <header className="flex flex-col justify-between items-center tablet:flex-row">
+    <header className="sticky top-0 z-50 bg-black opacity-75 flex flex-col justify-between items-center tablet:flex-row">
       <img
         className="w-14 h-14 animate-pulse"
         alt="main logo"

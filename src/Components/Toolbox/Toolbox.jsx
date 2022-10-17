@@ -22,7 +22,7 @@ function Toolbox() {
       id="Toolbox"
     >
       <div className="border-2 border-b-4 flex flex-row justify-between">
-        <h2 className="text-white text-base ml-1 ">/skills & Tools</h2>
+        <h2 className="text-white text-base ml-1 ">/Skills & Tools</h2>
         <div className="flex flex-row justify-center items-center">
           <div className="w-4 h-4 mr-1 border-2 rounded-full border-green-500 hover:bg-green-500"></div>
           <div className="w-4 h-4 mr-1 border-2 rounded-full border-gray-500 hover:bg-gray-500"></div>
