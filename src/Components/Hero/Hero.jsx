@@ -1,5 +1,5 @@
 import React from "react";
-import WalidPfp from "../../Assets/WalidPfp.png";
+import WalidPfp from "../../Assets/Images/WalidPfp.png";
 
 function Hero() {
   return (

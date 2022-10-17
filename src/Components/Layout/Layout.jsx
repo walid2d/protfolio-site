@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Hero from "../Hero/Hero";
 import Toolbox from "../Toolbox/Toolbox";
-import Projects from "../Projects/Projects";
+import Work from "../Work/Work";
 import Sayhello from "../Sayhello/Sayhello";
 import Footer from "../Footer/Footer";
 function Layout() {
@@ -11,7 +11,7 @@ function Layout() {
       <NavBar />
       <Hero />
       <Toolbox />
-      <Projects />
+      <Work />
       <Sayhello />
       <Footer />
     </div>

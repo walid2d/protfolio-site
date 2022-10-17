@@ -1,11 +1,11 @@
 import React from "react";
 import AOS from "aos";
-import Folder from "../../Assets/Folder.svg";
+import Folder from "../../Assets/Images/Folder.svg";
 import { appData } from "../../Data/Data";
 import "aos/dist/aos.css";
 AOS.init();
 
-function Projects() {
+function Work() {
   return (
     <section
       className="flex justify-between w-[323px] tablet:w-[588px] flex-col border-2 mx-auto mt-12 desktop:w-[50rem] desktop:h-[22rem]"
@@ -46,4 +46,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Work;
